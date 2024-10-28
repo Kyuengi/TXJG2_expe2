@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h2 th:text="${title}"></h2>
+
+    <p th:text="${description}"></p>
+
+    <pre><code th:text="${code}"></code></pre>
+
+    <p th:text="${importantfx}"></p>
+
+    <a href="/">返回主页</a>
+</div>
+</body>
+</html>
